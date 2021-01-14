@@ -3,7 +3,7 @@
   position: absolute;
   top: 80px;
   width: 100%;
-  height: calc(100% - 80px);  
+  height: calc(100% - 80px);
 }
 .title {
   font-family: 'Rajdhani', sans-serif;
@@ -12,17 +12,23 @@
 .golden {
   color: #DAA520;
 }
-.green {
+.green { /*old*/
   color: #4FB464;
 }
-.purple {
+.purple { /*old*/
   color: #8D6EA7;
+}
+.indigo {
+  color: #2A3A8C
+}
+.blue {
+  color: #3375B6
 }
 .infobox-header {
   font-size: 30px;
 }
 .infobox {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(50, 50, 50, 0.5);
   color: white;
   padding: 1.5em;
   font-size: 1.5em;
@@ -36,7 +42,7 @@
     -ms-overflow-style: none;  // IE 10+
     overflow: -moz-scrollbars-none;  // Firefox
 }
-::-webkit-scrollbar { 
+::-webkit-scrollbar {
     display: none;  // Safari and Chrome
 }
 
@@ -155,8 +161,8 @@ ul {
   background-size: cover;
   cursor: pointer;
 }
-#amanda {
-  background-image: url("/images/Amanda.jpg");
+#omar {
+  background-image: url("/images/Omar.jpg");
 }
 #crystal {
   background-image: url("/images/Crystal.jpg");
@@ -319,7 +325,7 @@ ul {
   font-size: 1.1em;
 }
 
-.nav-link a { 
+.nav-link a {
   line-height: 80px;
   padding: 0 20px 0 20px;
   text-decoration: none;
