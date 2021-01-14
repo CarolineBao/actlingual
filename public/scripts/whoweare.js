@@ -56,5 +56,8 @@ $(document).ready(function() {
     "sky": "Sky Kim",
     "tina": "Tina Chen",
     "lulu": "Lulu Tian",
+    "victor": "Victor Damptey",
+    "bhav": "Bhav Jain",
+    "mydia": "Mydia Phan"
   };
 });

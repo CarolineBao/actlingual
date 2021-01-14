@@ -164,38 +164,35 @@ ul {
 #omar {
   background-image: url("/images/Omar.jpg");
 }
-#crystal {
-  background-image: url("/images/Crystal.jpg");
-}
-#adrianna {
-  background-image: url("/images/Adrianna.jpg");
-}
-#leon {
-  background-image: url("/images/Leon.jpg");
-}
-#shahul {
-  background-image: url("/images/Shahul.jpg");
-}
-#lia {
-  background-image: url("/images/Lia.jpg");
-}
 #tam {
   background-image: url("/images/Tam.jpg");
 }
-#jiaxing {
-  background-image: url("/images/Jiaxing.jpg");
+#caroline {
+  background-image: url("/images/Caroline.jpg");
 }
 #silvia {
   background-image: url("/images/Silvia.jpg");
 }
-#hyunji {
-  background-image: url("/images/Hyunji.jpg");
+#wenbo {
+  background-image: url("/images/Wenbo.jpg");
 }
-#patricia {
-  background-image: url("/images/Patricia.jpg");
+#sky {
+  background-image: url("/images/Sky.jpg");
 }
-#isabel {
-  background-image: url("/images/Isabel.jpg");
+#tina {
+  background-image: url("/images/Tina.jpg");
+}
+#lulu {
+  background-image: url("/images/Lulu.jpg");
+}
+#victor {
+  background-image: url("/images/Victor.jpg");
+}
+#bhav {
+  background-image: url("/images/Bhav.jpg");
+}
+#mydia {
+  background-image: url("/images/Mydia.jpg");
 }
 
 .profile-title {
