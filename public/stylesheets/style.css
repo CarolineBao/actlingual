@@ -1,0 +1,359 @@
+/***** Main *****/
+.big-container {
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  height: calc(100% - 80px);  
+}
+.title {
+  font-family: 'Rajdhani', sans-serif;
+  padding: 0 10px 0 10px;
+}
+.golden {
+  color: #DAA520;
+}
+.green {
+  color: #4FB464;
+}
+.purple {
+  color: #8D6EA7;
+}
+.infobox-header {
+  font-size: 30px;
+}
+.infobox {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 1.5em;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  position: relative;
+  margin-top: 0;
+}
+
+// Remove scrollbars
+{
+    -ms-overflow-style: none;  // IE 10+
+    overflow: -moz-scrollbars-none;  // Firefox
+}
+::-webkit-scrollbar { 
+    display: none;  // Safari and Chrome
+}
+
+ul {
+  padding-left: 2em;
+}
+
+/***** Section Backgrounds *****/
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: scroll;
+  width: 100%;
+  #text-align: left;
+}
+.green-gradient {
+  padding: 30px 30px 30px 30px;
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#24BE62, endColorstr=#196939);
+  background: -moz-linear-gradient(top, #24BE62 0%, #196939 60%);
+  background: linear-gradient(top, #24BE62 0%, #196939 60%);
+  background: -webkit-linear-gradient(top, #24BE62 0%, #196939 60%);
+  background: -o-linear-gradient(top, #24BE62 0%, #196939 60%);
+  background: -ms-linear-gradient(top, #24BE62 0%, #196939 60%);
+  background: -webkit-gradient(linear, right top, right bottom, color-stop(0%,#24BE62), color-stop(60%,#196939));
+}
+.purple-gradient {
+  padding: 30px 30px 30px 30px;
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#AC82B8, endColorstr=#725A79);
+  background: -moz-linear-gradient(top, #AC82B8 0%, #725A79 60%);
+  background: linear-gradient(top, #AC82B8 0%, #725A79 60%);
+  background: -webkit-linear-gradient(top, #AC82B8 0%, #725A79 60%);
+  background: -o-linear-gradient(top, #AC82B8 0%, #725A79 60%);
+  background: -ms-linear-gradient(top, #AC82B8 0%, #725A79 60%);
+  background: -webkit-gradient(linear, right top, right bottom, color-stop(0%,#AC82B8), color-stop(60%,#725A79));
+}
+#board{
+  display: inline-block;
+  align-text: center;
+}
+#intro {
+  height: 100%;
+}
+
+#intro .title {
+  font-size: 3em;
+}
+
+/******* WhoWeAre *******/
+/* Modal styles */
+.modal {
+  /* display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 500px;
+}
+
+.modal-title {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 2.5em;
+}
+.modal-description {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.5em;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Other profile stuff*/
+.profiletable {
+  /*height:100%;*/
+  margin: auto;
+}
+.profiletable td{
+  text-align: center;
+  padding: 0 0 0 0;
+  margin: 10px 10px 10px 10px;
+  width: 27vmax;
+}
+.profilephoto {
+  width: 20vmax;
+  height: 20vmax;
+  display: inline-block;
+  border-radius: 13vmax;
+  margin: 10px 10px 10px 10px;
+  box-shadow: 10px 10px 5px;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+}
+#amanda {
+  background-image: url("/images/Amanda.jpg");
+}
+#crystal {
+  background-image: url("/images/Crystal.jpg");
+}
+#adrianna {
+  background-image: url("/images/Adrianna.jpg");
+}
+#leon {
+  background-image: url("/images/Leon.jpg");
+}
+#shahul {
+  background-image: url("/images/Shahul.jpg");
+}
+#lia {
+  background-image: url("/images/Lia.jpg");
+}
+#tam {
+  background-image: url("/images/Tam.jpg");
+}
+#jiaxing {
+  background-image: url("/images/Jiaxing.jpg");
+}
+#silvia {
+  background-image: url("/images/Silvia.jpg");
+}
+#hyunji {
+  background-image: url("/images/Hyunji.jpg");
+}
+#patricia {
+  background-image: url("/images/Patricia.jpg");
+}
+#isabel {
+  background-image: url("/images/Isabel.jpg");
+}
+
+.profile-title {
+  font-family: 'Rajdhani', sans-serif;
+  color: white;
+  font-size: 2em;
+}
+.profile-description {
+  font-family: 'Rajdhani', sans-serif;
+  color: white;
+  font-size: 1.5em;
+}
+
+/***** Projects *****/
+.hide {
+  display: none;
+}
+
+.project-container {
+  display: flex;
+}
+.project-title {
+  width: 100%;
+  font-size: 2.7em;
+  font-family: 'Rajdhani', sans-serif;
+  padding: 10px 0 10px 0;
+}
+.projectdata {
+  width: calc(100% - 200px);
+  #display: flex;
+  flex: 1;
+  overflow: auto;
+  flex-direction: column;
+}
+.projectnav {
+  height: 100%;
+  width: 200px;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #efa04d;
+  overflow-x: hidden;
+  box-shadow: 10px -5px 10px -10px  rgba(0,0,0,0.5);
+  padding: 30px 10px 10px 30px;
+  border-right: 0px solid red;
+}
+
+.projectnav div {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  /*display: block;*/
+  transition: 0.3s;
+}
+
+.projectnav div:hover {
+  color: #f1f1f1;
+}
+
+
+@media screen and (max-height: 450px) {
+  .projectnav {padding-top: 15px;}
+  .projectnav a {font-size: 18px;}
+}
+/***** Navbar *****/
+.navbar {
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 1001;
+  border-radius: 0px;
+  border: none;
+  margin: none;
+}
+.logo {
+  height: 100%;
+  width: auto;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.logo-text {
+  height: 80px;
+  padding-left: 20px;
+  font-size: 3em;
+  display:inline-block;
+  position:absolute;
+  line-height:80px;
+  top: 0px;
+  left: 70px;
+  font-family:'Unica One', sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.left-nav {
+  position: absolute;
+  height: 80px;
+  top:0px;
+  left:0px;
+}
+.left-nav .title {
+  height: 100%;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+}
+
+.right-nav {
+  position: absolute;
+  height: 80px;
+  top:0px;
+  right:0px;
+}
+
+.right-nav li {
+  display:inline-block;
+  margin: 0;
+  padding: 0;
+  font-size: 1.1em;
+}
+
+.nav-link a { 
+  line-height: 80px;
+  padding: 0 20px 0 20px;
+  text-decoration: none;
+  color:black;
+  height:80px;
+  display:inline-block;
+}
+
+/* Temporary disabling of IAP Class Application */
+.nav-link.application {
+  background-color: gray;
+}
+
+.nav-link.application a{
+  cursor: default;
+}
+
+.nav-link:not(.application) a:hover  {
+  background-color: #131b75;
+  color:white;
+}
+
+.right-nav li.icon {
+  display:none;
+}
+
+@media screen and (max-width:900px) {
+  .right-nav li {display: none;}
+  .right-nav li.icon {
+     position: fixed;
+     display: inline-block;
+     line-height: 80px;
+     padding-right: 30px;
+     top:0;
+     right: 0;
+  }
+}

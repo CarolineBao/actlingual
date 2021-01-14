@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Medlingual</title>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <% include ./partials/head %>
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Unica+One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Nunito+Sans' rel='stylesheet'>
+
+    <!-- Libraries -->
+    <link rel='stylesheet' href='//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='/stylesheets/base.css'>
+    <link rel='stylesheet' href='/stylesheets/style.css'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src="/scripts/whoweare.js"></script>
+    
+  </head>
+  <body>
+    <% include ./partials/navbar %>
+    <div class="big-container">
+      <div class="section green-gradient" id="board">
+        <table class = "profiletable">
+          <tr>
+            <td><div class="profilephoto" id = "amanda" src="/images/Amanda.jpg"></div></td>
+            <td><div class="profilephoto" id = "crystal" src="/images/Crystal.jpg"></div></td>
+            <td><div class="profilephoto" id = "adrianna" src="/images/Adrianna.jpg"></div></td>
+          </tr>
+          <tr>
+            <td><span class = "profile-title"><div>Amanda Cao</div><span class="golden">Volunteer Coordinator</span></span></td>
+            <td><span class = "profile-title"><div>Crystal Chang</div><span class="golden">President</span></span></td>
+            <td><span class = "profile-title"><div>Adrianna Amaro</div><span class="golden">Publicity</span></span></td>
+          </tr>
+        </table>
+        </br>
+        <table class="profiletable">
+          <tr>
+            <td><div class="profilephoto" id = "leon" src="/images/Leon.jpg"></div></td>
+            <td><div class="profilephoto" id = "shahul" src="/images/Shahul.jpg"></div></td>
+            <td><div class="profilephoto" id = "lia" src="/images/Lia.jpg"></div></td>
+          </tr>
+          <tr>
+            <td><span class = "profile-title"><div>Leon Yim</div><span class="golden">Treasurer</span></span></td>
+            <td><span class = "profile-title"><div>Shahul Alam</div><span class="golden">Webmaster</span></span></td>
+            <td><span class = "profile-title"><div>Lia Tian</div><span class="golden">Class Coordinator</span></span></td>
+          </tr>
+          <tr>
+            <td><div class="profilephoto" id = "tam" src="/images/Tam.jpg"></div></td>
+            <td><div class="profilephoto" id = "jiaxing" src="/images/Jiaxing.jpg"></div></td>
+            <td><div class="profilephoto" id = "silvia" src="/images/Silvia.jpg"></div></td>
+          </tr>
+          <tr>
+            <td><span class = "profile-title"><div>Tam Nguyen</div><span class="golden">Clinical Coordinator</span></span></td>
+            <td><span class = "profile-title"><div>Jiaxing Liu</div><span class="golden">Point Coordinator</span></span></td>
+            <td><span class = "profile-title"><div>Silvia Cao</div><span class="golden">Point Coordinator</span></span></td>
+          </tr>
+          <tr>
+            <td><div class="profilephoto" id = "patricia" src="/images/Patricia.jpg"></div></td>
+            <td><div class="profilephoto" id = "isabel" src="/images/Isabel.jpg"></div></td>
+          </tr>
+          <tr>
+            <td><span class = "profile-title"><div>Patricia Chan</div><span class="golden">Point Coordinator</span></span></td>
+            <td><span class = "profile-title"><div>Isabel Rosa</div><span class="golden">Treasurer</span></span></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="exec-modal" class="modal">
+      <div class="modal-content">
+        <span id="modal-close" class="close">&times;</span>
+        <table class="">
+          <tbody>
+            <tr>
+              <td><span class="modal-title golden"></span></td>
+            </tr>
+            <tr>
+              <td><span class="modal-description purple"></span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
+
