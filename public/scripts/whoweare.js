@@ -38,13 +38,16 @@ $(document).ready(function() {
 
   let descriptionMap = {
     "omar": "",
-    "tam": "1) Course 20, UROP in Langer Lab on oral stem cells and mucosa regeneration 2) love dancing, kpop, classical music, binge watch grey's anatomy 3) live on Burton 4 4) not sure what I wanna do but generally make a significant impact on health care for people around the world",
+    "tam": "",
     "caroline": "",
-    "silvia": "I am from sunny Southern California. In my spare time, I like listening to music and dancing. I look forward to meeting new people and getting more involved in volunteer activities through Medlingual.",
+    "silvia": "",
     "wenbo": "",
     "sky": "",
     "tina": "",
     "lulu": "",
+    "victor": "",
+    "bhav": "",
+    "mydia": ""
   };
 
   let nameMap = {
