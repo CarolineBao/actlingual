@@ -206,28 +206,28 @@ ul {
   font-size: 1.5em;
 }
 
-/***** Projects *****/
+/***** Committees *****/
 .hide {
   display: none;
 }
 
-.project-container {
+.committee-container {
   display: flex;
 }
-.project-title {
+.committee-title {
   width: 100%;
   font-size: 2.7em;
   font-family: 'Rajdhani', sans-serif;
   padding: 10px 0 10px 0;
 }
-.projectdata {
+.committeedata {
   width: calc(100% - 200px);
   #display: flex;
   flex: 1;
   overflow: auto;
   flex-direction: column;
 }
-.projectnav {
+.committeenav {
   height: 100%;
   width: 200px;
   position: relative;
@@ -241,7 +241,7 @@ ul {
   border-right: 0px solid red;
 }
 
-.projectnav div {
+.committeenav div {
   padding: 8px 8px 8px 8px;
   text-decoration: none;
   font-size: 25px;
@@ -250,14 +250,14 @@ ul {
   transition: 0.3s;
 }
 
-.projectnav div:hover {
+.committeenav div:hover {
   color: #f1f1f1;
 }
 
 
 @media screen and (max-height: 450px) {
-  .projectnav {padding-top: 15px;}
-  .projectnav a {font-size: 18px;}
+  .committeenav {padding-top: 15px;}
+  .committeenav a {font-size: 18px;}
 }
 /***** Navbar *****/
 .navbar {

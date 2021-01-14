@@ -27,8 +27,8 @@ app.get('/whoweare', function(request, response) {
   response.render('whoweare');
 });
 
-app.get('/projects', function(request, response) {
-  response.render('projects');
+app.get('/committees', function(request, response) {
+  response.render('committees');
 });
 
 app.listen(app.get('port'), function() {
